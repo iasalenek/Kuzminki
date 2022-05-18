@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-22 11:17:52 by Eclipse SUMO netedit Version 1.12.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+<!-- 
+Маршруты с детекторов
+-->
+    <route id="r_101122" edges="135733465 146940881 627999455 27849851" color="red"/>
+    <route id="r_101126" edges="408298891#0 408298891#1 408298891#2 456567778 27849853" color="red"/>
+    <route id="r_10330" edges="162959647#1 162959647#2" color="red"/>
+    <route id="r_15385" edges="236838900#0 236838900#1 236838900#2 236838900#3 236838900#4 236838900#5 236838900#6 146940895 162258623#0" color="red"/>
+
+
+<!-- 
+Маршруты без детекторов
+-->
+    <route id="r_15_20"  edges="408322117#6"/>
+    <route id="r_16_17"  edges="146940890#3"/>
+
+<!-- 
+Данные с детекторов
+-->
+    <flow id="flow_101126" route="r_101126" begin="0" end="1000000" vehsPerHour="500" departSpeed="max" departPos="base" departLane="best"/>
+    <flow id="flow_15385" route="r_15385" begin="0" end="1000000" vehsPerHour="200" departSpeed="max" departPos="base" departLane="best"/>
+    <flow id="flow_101122" route="r_101122" begin="0" end="1000000" vehsPerHour="500" departSpeed="max" departPos="base" departLane="best"/>
+    <flow id="flow_10330" route="r_10330" begin="0" end="1000000" vehsPerHour="200" departSpeed="max" departPos="base" departLane="best"/>
+
+<!-- 
+Данные без детекторов
+-->
+    <flow id="flow_15_20" route="r_15_20" begin="0" end="1000000" vehsPerHour="200" departSpeed="max" departPos="base" departLane="best"/>
+    <flow id="flow_16_17" route="r_16_17" begin="0" end="1000000" vehsPerHour="200" departSpeed="max" departPos="base" departLane="best"/>
+
+</routes>
+
+

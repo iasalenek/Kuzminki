@@ -1,0 +1,7 @@
+<configuration>
+  <input>
+    <net-file value="Kuzminki.net.xml" />
+    <route-files value="Kuzminki.rou.xml" />
+    <additional-files value="Kuzminki.rerouter.xml" />
+  </input>
+</configuration>

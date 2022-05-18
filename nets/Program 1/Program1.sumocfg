@@ -1,0 +1,7 @@
+<configuration>
+  <input>
+    <net-file value="Program1.net.xml" />
+    <route-files value="Program1.rou.xml" />
+    <additional-files value="Program1.rerouter.xml" />
+  </input>
+</configuration>
