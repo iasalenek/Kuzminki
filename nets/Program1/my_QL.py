@@ -21,15 +21,15 @@ if __name__ == '__main__':
     alpha = 0.1
     gamma = 0.99
     decay = 1
-    runs = 1
+    runs = 10
 
     env = my_env(cfg_file = 'nets/Program1/Program1.sumocfg',
                 net_file='nets/Program1/Program1.net.xml',
                 route_file='nets/Program1/Program1.rou.xml',
-                use_gui=True,
+                use_gui=False,
                 min_green=8,
                 delta_time=5,
-                num_seconds=80000)
+                num_seconds=1000)
 
     for run in range(1, runs+1):
         env.reset()
