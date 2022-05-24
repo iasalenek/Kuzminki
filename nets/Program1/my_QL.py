@@ -23,9 +23,9 @@ if __name__ == '__main__':
     decay = 1
     runs = 1
 
-    env = my_env(cfg_file = 'Program1.sumocfg',
-                net_file='Program1.net.xml',
-                route_file='Program1.rou.xml',
+    env = my_env(cfg_file = 'nets/Program1/Program1.sumocfg',
+                net_file='nets/Program1/Program1.net.xml',
+                route_file='nets/Program1/Program1.rou.xml',
                 use_gui=True,
                 min_green=8,
                 delta_time=5,
